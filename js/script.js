@@ -1,7 +1,7 @@
 // Copyright (c) 2022 Ashley Monaghan All rights reserved
 //
 // Created by: Ashley Monaghan
-// Created on: Oct 2022
+// Created on: Jan 2023
 // This file contains the JS functions for index.html
 
 "use strict"
@@ -10,31 +10,33 @@
  * Check servie worker.
  */
 if (navigator.serviceWorker) {
-  navigator.serviceWorker.register("/ICS2O-PWA-Test/sw.js", {
-    scope: "/ICS2O-PWA-Test/",
+  navigator.serviceWorker.register("/ICS2OR-Assignment-5/sw.js", {
+    scope: "/ICS2OR-Assignment-5/",
   })
 }
 
 /**
- * This function displays an alert.
- * Math
+ * This function does multiplication.
  */
-function calculate() {
-  // input
-  const a = parseInt(document.getElementById("textbox-a").value)
-  const b = parseInt(document.getElementById("textbox-b").value)
-  const c = parseInt(document.getElementById("textbox-c").value)
+function myButtonClicked() {
+  let numberOfLoops = parseFloat(document.getElementById("firstInputedNumber").value)
+  let counter = 0
+  let numerator = 4
+  let denomonaitor = -1
+  let Pi
 
-  // process
-  const math = a + b + c
-  // output
-  document.getElementById("math").innerHTML = "Numbers: " + math + " units"
-}
+  while (counter < Math.abs(numberOfLoops)) {
+    
+    numerator = 4
+    denomonaitor = denomonaitor + 2
+    multiply = (-1) ** counter
+    aLittleBit = (numerator / denomonaitor) * multiply
+    Pi = Pi + aLittleBit
+    counter = counter + 1
 
-/**
- * This function displays an alert.
- * Words
- */
-function button() {
-  document.getElementById("words").innerHTML = "<p>Hello, World!</p>"
+
+  }
+
+    document.getElementById("Pi").innerHTML = "Your pi is: " + pianswer + "!"
+
 }
