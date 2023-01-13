@@ -23,7 +23,7 @@ function button() {
   let counter = 0
   let denomonaitor = -1
   let aLittleBit = 0
-  let Pi = 0
+  let Pi = Pi + aLittleBit
 
 
   while (counter < Math.abs(numberOfLoops)) {
