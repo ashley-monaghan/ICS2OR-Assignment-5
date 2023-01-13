@@ -23,15 +23,14 @@ function button() {
   let counter = 0
   let numerator = 4
   let denomonaitor = -1
-  let Pi
 
   while (counter < Math.abs(numberOfLoops)) {
     
     numerator = 4
     denomonaitor = denomonaitor + 2
-    multiply = (-1) ** counter
+    let multiply = (-1) ** counter
     aLittleBit = (numerator / denomonaitor) * multiply
-    Pi = Pi + aLittleBit
+    let Pi = Pi + aLittleBit
     counter = counter + 1
 
 
