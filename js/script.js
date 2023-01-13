@@ -33,8 +33,6 @@ function buttonPressed() {
     let multiply = (-1) ** counter
     aLittleBit = (numerator / denomonaitor) * multiply
     Pi = Pi + aLittleBit
-    counter = counter++
-
 
   }
 
