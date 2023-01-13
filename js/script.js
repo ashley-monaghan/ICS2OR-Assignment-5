@@ -19,10 +19,12 @@ if (navigator.serviceWorker) {
  * This function does multiplication.
  */
 function button() {
-  let numberOfLoops = parseFloat(document.getElementById("firstInputedNumber").value)
+  let numberOfLoops = parseFloat(document.getElementById("number").value)
   let counter = 0
   let numerator = 4
   let denomonaitor = -1
+  let aLittleBit = 0
+
 
   while (counter < Math.abs(numberOfLoops)) {
     
