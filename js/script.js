@@ -29,7 +29,7 @@ function button() {
     numerator = 4
     denomonaitor = denomonaitor + 2
     let multiply = (-1) ** counter
-    aLittleBit = (numerator / denomonaitor) * multiply
+    let aLittleBit = (numerator / denomonaitor) * multiply
     let Pi = Pi + aLittleBit
     counter = counter + 1
 
