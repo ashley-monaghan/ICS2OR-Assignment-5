@@ -18,7 +18,7 @@ if (navigator.serviceWorker) {
 /**
  * This function does multiplication.
  */
-function myButtonClicked() {
+function button() {
   let numberOfLoops = parseFloat(document.getElementById("firstInputedNumber").value)
   let counter = 0
   let numerator = 4
@@ -37,6 +37,6 @@ function myButtonClicked() {
 
   }
 
-    document.getElementById("Pi").innerHTML = "Your pi is: " + pianswer + "!"
+    document.getElementById("pianswer").innerHTML = "Your pi is: " + Pi + "!"
 
 }
