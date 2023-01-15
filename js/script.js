@@ -16,19 +16,19 @@ if (navigator.serviceWorker) {
 }
 
 /**
- * This function does multiplication.
+ * This function calculates pi.
  */
 function buttonPressed() {
   let numberOfLoops = parseFloat(document.getElementById("number").value)
   let counter = 0
-  let numerator = 4
   let denomonaitor = -1
   let aLittleBit = 0
-  let Pi = numerator / denomonaitor
+  let Pi
 
 
   while (counter == numberOfLoops) {
     
+    let numerator = 4
     denomonaitor = denomonaitor + 2
     let multiply = (-1) ** counter
     aLittleBit = (numerator / denomonaitor) * multiply
