@@ -24,7 +24,7 @@ function buttonPressed() {
   let numerator = 4
   let denomonaitor = -1
   let aLittleBit = 0
-  let Pi = numerator / denomonaitor
+  let Pi = 0
 
 
   while (counter == Math.abs(numberOfLoops)) {
