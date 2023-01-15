@@ -27,7 +27,7 @@ function buttonPressed() {
   let Pi = 0
 
 
-  while (counter == Math.abs(numberOfLoops)) {
+  while (counter <= numberOfLoops) {
     
     denomonaitor = denomonaitor + 2
     let multiply = (-1) ** counter
@@ -36,6 +36,6 @@ function buttonPressed() {
     counter = counter + 1
   }
 
-    document.getElementById("pianswer").innerHTML = "Your pi is: " + Pi + "!"
+  document.getElementById("pianswer").innerHTML = "Your pi is: " + Pi + "!"
 
 }
