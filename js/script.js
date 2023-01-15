@@ -24,10 +24,10 @@ function buttonPressed() {
   let numerator = 4
   let denomonaitor = -1
   let aLittleBit = 0
-  let Pi = 0
+  let Pi = numerator / denomonaitor
 
 
-  while (counter == numberOfLoops) {
+  while (counter == Math.abs(numberOfLoops)) {
     
     denomonaitor = denomonaitor + 2
     let multiply = (-1) ** counter
@@ -36,6 +36,6 @@ function buttonPressed() {
     counter = counter + 1
   }
 
-  document.getElementById("pianswer").innerHTML = "Your pi is: " + Pi + "!"
+    document.getElementById("pianswer").innerHTML = "Your pi is: " + Pi + "!"
 
 }
