@@ -27,7 +27,7 @@ function buttonPressed() {
   let Pi = numerator / denomonaitor
 
 
-  while (counter == Math.abs(numberOfLoops)) {
+  while (counter == numberOfLoops) {
     
     denomonaitor = denomonaitor + 2
     let multiply = (-1) ** counter
