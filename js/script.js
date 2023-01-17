@@ -22,9 +22,9 @@ function buttonPressed() {
   let numberOfLoops = parseFloat(document.getElementById("number").value)
   let counter = 0
   let denomonaitor = -1
-  let Pi = 1
+  let Pi = 0
 
-  while (counter <= numberOfLoops) {
+  while (counter < numberOfLoops) {
     
     let numerator = 4
     denomonaitor = denomonaitor + 2
